@@ -1,0 +1,33 @@
+<div class="container">
+    <text class="title">QR Code Demo</text>
+
+    <qrcode
+            value="{{qr_value}}"
+            class="qrCode"
+            style="color: {{qr_col}}; background-color: {{qr_bcol}}; width: {{qr_size}}px; height: {{qr_size}}px;"
+            onclick="onQrClick"
+            onlongpress="onQrLongPress">
+    </qrcode>
+
+    <div class="row">
+        <input type="button" class="button" value="Make Bigger" onclick="makeBigger"></input>
+        <input type="button" class="button" value="Make Smaller" onclick="makeSmaller"></input>
+    </div>
+
+    <div class="row">
+        <input type="button" class="button" value="changeColor" onclick="changeColor"></input>
+        <input type="button" class="button" value="changeBackgroundColor" onclick="changeBackgroundColor"></input>
+    </div>
+
+    <div class="row">
+        <input type="button" class="button" value="showWorkoutQr" onclick="showWorkoutQr"></input>
+        <input type="button" class="button" value="showPaymentQr" onclick="showPaymentQr"></input>
+    </div>
+
+    <div class="row">
+        <input type="button" class="button" value="showPairingQr" onclick="showPairingQr"></input>
+        <input type="button" class="button" value="showContactQr" onclick="showContactQr"></input>
+    </div>
+
+    <text class="hint">{{ $r('app.string.MainAbility_desc') }}</text>
+</div>
