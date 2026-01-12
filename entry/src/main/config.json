@@ -1,6 +1,6 @@
 {
   "app": {
-    "bundleName": "com.hmosdemos.qrcode",
+    "bundleName": "com.hmosdemos.lite_wearable.qrcode",
     "vendor": "hmosdemos",
     "version": {
       "code": 1000000,

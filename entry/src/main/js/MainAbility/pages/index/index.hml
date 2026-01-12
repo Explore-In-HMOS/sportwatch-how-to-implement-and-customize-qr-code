@@ -2,9 +2,9 @@
     <text class="title">QR Code Demo</text>
 
     <qrcode
-            value="{{qr_value}}"
+            value="{{qrValue}}"
             class="qrCode"
-            style="color: {{qr_col}}; background-color: {{qr_bcol}}; width: {{qr_size}}px; height: {{qr_size}}px;"
+            style="color: {{qrCol}}; background-color: {{qrBcol}}; width: {{qrSize}}px; height: {{qr_size}}px;"
             onclick="onQrClick"
             onlongpress="onQrLongPress">
     </qrcode>

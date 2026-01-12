@@ -1,15 +1,17 @@
 > **Note:** To access all shared projects, get information about environment setup, and view other guides, please visit [Explore-In-HMOS-Wearable Index](https://github.com/Explore-In-HMOS-Wearable/hmos-index).
 
- # How to Implement and Customize QR Code
+# How to Implement and Customize QR Code
 
 This codelab demonstrates how to implement and customize QR Code functionality on Huawei Lite wearable devices.
 You’ll learn how to create, display, and dynamically update QR codes directly on a smartwatch using the Huawei Lite Wearable framework.
+
 # Preview
-<p align="left">
+
+<div align="left">
     <img src="screenshots/sss1.png" width="25%" />
     <img src="screenshots/sss2.png" width="25%" />
     <img src="screenshots/sss3.png" width="25%" />
-</p>
+</div>
 
 # Use Cases
 * Generating QR codes on-device
