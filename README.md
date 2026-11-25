@@ -2,8 +2,8 @@
 
 # How to Implement and Customize QR Code
 
-This codelab demonstrates how to implement and customize QR Code functionality on Huawei Lite wearable devices.
-You’ll learn how to create, display, and dynamically update QR codes directly on a smartwatch using the Huawei Lite Wearable framework.
+This codelab demonstrates how to implement and customize QR Code functionality on Huawei SportWatch devices.
+You’ll learn how to create, display, and dynamically update QR codes directly on a smartwatch using the Huawei SportWatch framework.
 
 # Preview
 
